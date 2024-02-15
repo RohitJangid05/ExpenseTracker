@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+</head>
+
+<body>
+    <div class="heading">Expense Tracker</div>
+    <div>
+        <span>Amount Remaining :</span><span id="totalAmt"> 15000</span>
+    </div>
+    <div class="main">
+        <div id="content">
+            <h1 style="color: rgb(184, 61, 61);">Expense</h1>
+            <div class="holder">
+                <label for="desc">Description</label>
+                <input style="margin-left: 13px;" type="text" class="data" id="expense"
+                    placeholder="Enter the description">
+            </div>
+            <div class="holder">
+                <label for="amount">Amount</label>
+                <input style="margin-left: 49px;" type="amount" class="data" id="expenseAmt"
+                    placeholder="Enter the amount">
+            </div>
+            <button onclick="expense()">Submit</button>
+        </div>
+        <div id="content">
+            <h1 style="color:rgb(42, 163, 42);">Revenue</h1>
+            <div class="holder">
+                <label for="desc">Description</label>
+                <input style="margin-left: 13px;" type="text" class="data" id="revenue"
+                    placeholder="Enter the description">
+            </div>
+            <div class="holder">
+                <label for="amount">Amount</label>
+                <input style="margin-left: 49px;" type="amount" class="data" id="revenueAmt"
+                    placeholder="Enter the amount">
+            </div>
+            <button onclick="revenue()">Submit</button>
+        </div>
+    </div>
+    <hr>
+    <h1 class="bottom">Pass Book</h1>
+    <div class="info">
+        <div>
+            <div id="expSec">
+            </div>
+        </div>
+        <div>
+            <div id="revSec">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 30, 30);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+span {
+    position: relative;
+    top: 45px;
+    left: 5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#content>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    bottom: 30px;
+    text-transform: uppercase;
+}
+
+#content {
+    margin-top: 105px;
+    width: 40%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 1px -2px 50px 5px rgb(0 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(75, 72, 72);
+    color: black;
+}
+
+.holder {
+    width: 70%;
+    height: 13%;
+    margin-left: 11px;
+}
+
+.data {
+    margin-top: 10px;
+    width: 65%;
+    height: 30px;
+    border: 1px solid navy;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    outline: none;
+}
+
+label {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+button {
+    margin-top: 35px;
+    width: 70%;
+    height: 30px;
+    border: 1px solid navy;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #383535;
+    border-color: aliceblue;
+}
+
+hr {
+    width: 100%;
+    margin-top: 55px;
+}
+.bottom{
+    text-align: center;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#expSec{
+    border-right: 5px solid wheat;
+}
+ #expSec,#revSec { 
+    margin-top: 15px;
+    padding: 15px;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 25px;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(95, 90, 90);
+    box-shadow: 1px -2px 50px 5px rgb(0 0 0);
+    color: black;
+    font-size: 20px;
+}
+
+.card>h2 {
+    color: rgb(184, 61, 61);
+}
+.card>.green{
+    color:rgb(42, 163, 42);
+}
